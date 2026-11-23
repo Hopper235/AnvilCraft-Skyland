@@ -31,8 +31,8 @@ public class RollingGateLang {
             "skyland.rolling_gate.rule.lightning_electrifies_vines.desc",
             "The Lightning can also strike a Lightning Rod on the Glowstone."
         );
-        provider.add("skyland.rolling_gate.rule.renewable_amethysts", "Renewable Amethysts");
-        provider.add("skyland.rolling_gate.rule.renewable_amethysts.desc", "Renewable Amethysts");
+        provider.add("skyland.rolling_gate.rule.renewable_budding_amethysts", "Renewable Budding Amethysts");
+        provider.add("skyland.rolling_gate.rule.renewable_budding_amethysts.desc", "Renewable Budding Amethysts");
         provider.add("skyland.rolling_gate.rule.gateways_spawn_chorus", "Gateways Spawn Chorus");
         provider.add("skyland.rolling_gate.rule.gateways_spawn_chorus.desc", "Gateways Spawn Chorus");
         provider.add("skyland.rolling_gate.rule.renewable_hearts_of_the_sea", "Renewable Hearts Of The Sea");

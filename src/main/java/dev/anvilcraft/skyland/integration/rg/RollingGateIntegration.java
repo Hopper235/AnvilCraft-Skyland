@@ -1,7 +1,6 @@
 package dev.anvilcraft.skyland.integration.rg;
 
 import dev.anvilcraft.lib.v2.integration.Integration;
-import dev.anvilcraft.rg.api.server.TranslationUtil;
 import dev.anvilcraft.skyland.integration.rg.event.RollingGateEventListener;
 import net.neoforged.neoforge.common.NeoForge;
 
@@ -9,6 +8,6 @@ import net.neoforged.neoforge.common.NeoForge;
 public class RollingGateIntegration {
     public void apply() {
         NeoForge.EVENT_BUS.register(new RollingGateEventListener());
-        TranslationUtil.loadLanguage(RollingGateIntegration.class, "skyland", "en_us");
+        RollingGateLanguageLoader.loadAll();
     }
 }
