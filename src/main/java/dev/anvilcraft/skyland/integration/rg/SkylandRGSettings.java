@@ -7,7 +7,7 @@ import org.jetbrains.annotations.NotNull;
 
 import java.util.Map;
 
-@RGServerRules
+@RGServerRules(value = "skyland", languages = {"zh_cn", "en_us"})
 public class SkylandRGSettings {
     // 生成末地传送门
     @Rule(
